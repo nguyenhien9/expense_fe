@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #fafafa;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border-radius: 50px;
+}
+
+.MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.MuiSelect-select,
+.MuiSvgIcon-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.MuiOutlinedInput-input {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.7);
+}
+.MuiSelect-select .MuiSelect-outlined {
+  color: #fff !important;
+}
+.MuiPaginationItem-root {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.MuiPaginationItem-root:hover {
+  background: rgb(7, 81, 141) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.Mui-selected {
+  color: #fff !important;
+}
+.MuiList-root {
+  background-color: rgba(65, 76, 85, 0.9) !important;
+}
+.MuiMenuItem-root {
+  color: #fff !important;
+}
+.MuiMenuItem-root:hover {
+  background: #fff !important;
+  color: rgba(65, 76, 85, 0.9) !important ;
+  transition: all 0.5s ease;
+}
+.Mui-selected {
+  background: #fff !important;
+  color: rgba(65, 76, 85, 0.9) !important ;
+}
